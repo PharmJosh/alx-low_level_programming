@@ -14,18 +14,15 @@ int main(void)
 	while (s <= e)
 	{
 		putchar(s + '0');
+
+		if (s != e)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		s++;
 	}
 
-	s = 97;
-	e = 102;
-
-	while (s <= e)
-	{
-		putchar(s);
-		s++;
-	}
-	
 	putchar('\n');
 
 	return (0);
