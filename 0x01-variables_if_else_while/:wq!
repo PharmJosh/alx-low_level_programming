@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * main - main function
+ *
+ * Return: 0 on success
+ */
+int main(void)
+{
+	int p = 0, q = 9;
+
+	while (p <= q)
+	{
+		putchar(p + '0');
+		p++;
+	}
+
+	putchar('\n');
+
+	return (0);
+}
