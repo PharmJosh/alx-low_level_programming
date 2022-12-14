@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	while (count <= 10)
 	{
-		while (start <=end)
+		while (start <= end)
 		{
 			_putchar(start);
 			start++;
