@@ -29,8 +29,7 @@ void print_diagonal(int n)
 				start++;
 			}
 			start = 0;
-				
+			count++;
 		}
-		
 	}
 }
