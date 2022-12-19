@@ -1,5 +1,5 @@
 #include "main.h"
-i
+
 /**
  * main - check the code
  *
